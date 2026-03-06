@@ -9,8 +9,7 @@ public class RobotManualInput : MonoBehaviour
     public GameObject robot;
 
     [Header("Input Actions (One per Joint)")]
-    public InputAction[] jointInputs; // Assign in Inspector or via script
-
+    public InputAction[] jointInputs; 
     private RobotController robotController;
 
     private void Awake()
